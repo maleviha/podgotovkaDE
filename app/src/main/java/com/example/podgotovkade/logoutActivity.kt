@@ -9,7 +9,7 @@ class logoutActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_logout)
-    }
+    }//
     fun next(view: View){
         val intent= Intent(this, FoodActivity::class.java)
         startActivity(intent)
